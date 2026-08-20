@@ -2,6 +2,12 @@
 
 A custom Fastfetch setup for Arch Linux + Hyprland using a Rangda image with Kitty's direct image renderer.
 
+## Preview
+
+![Rangda Fastfetch preview](screenshot.png)
+
+The preview shows the custom Rangda image, red accent labels, and the Software / Hardware layout used by this configuration.
+
 ## Features
 
 - Rangda image logo via `kitty-direct`
@@ -14,6 +20,7 @@ A custom Fastfetch setup for Arch Linux + Hyprland using a Rangda image with Kit
 
 - `config.jsonc` — Fastfetch configuration
 - `rangda.png` — logo image asset
+- `screenshot.png` — setup preview
 
 ## Install
 
