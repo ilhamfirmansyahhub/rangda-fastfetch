@@ -1,0 +1,100 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+    "logo": {
+        "type": "kitty-direct",
+        "source": "${HOME}/.config/fastfetch/assets/rangda.png",
+        "width": 40,
+        "height": 22,
+        "padding": {
+            "top": 0,
+            "left": 1,
+            "right": 3
+        }
+    },
+
+    "display": {
+        "color": {
+            "keys": "#f7768e",
+            "title": "#f7768e"
+        }
+    },
+
+    "modules": [
+        {
+            "type": "custom",
+            "format": ""
+        },
+
+        "title",
+
+        {
+            "type": "custom",
+            "format": "╭─ \u001b[38;2;247;118;142mSoftware\u001b[0m ───────────────────────────────────╮"
+        },
+
+        {
+            "type": "kernel",
+            "key": "  Kernel"
+        },
+
+        {
+            "type": "custom",
+            "key": "  OS",
+            "format": "Arch Linux"
+        },
+
+        {
+            "type": "custom",
+            "key": "  WM",
+            "format": "Hyprland"
+        },
+
+        {
+            "type": "terminal",
+            "key": "  Terminal",
+            "format": "kitty"
+        },
+
+        {
+            "type": "uptime",
+            "key": "  Uptime"
+        },
+
+        {
+            "type": "custom",
+            "format": "├─ \u001b[38;2;247;118;142mHardware\u001b[0m ───────────────────────────────────┤"
+        },
+
+        {
+            "type": "cpu",
+            "key": "  CPU"
+        },
+
+        {
+            "type": "gpu",
+            "key": "  GPU",
+            "hideType": "integrated"
+        },
+
+        {
+            "type": "memory",
+            "key": "  Memory"
+        },
+
+        {
+            "type": "disk",
+            "key": "  Disk"
+        },
+
+        {
+            "type": "display",
+            "key": "  Display"
+        },
+
+        {
+            "type": "custom",
+            "format": "╰───────────────────────────────────────────────────╯"
+        }
+    ]
+}
