@@ -55,3 +55,7 @@ Copy `config.jsonc` to `~/.config/fastfetch/config.jsonc` and place `rangda.png`
 - `rangda.png` — logo image asset
 - `install.sh` — installation script
 - `screenshot.png` — setup preview
+
+## License
+
+This repository contains a third-party image asset. The configuration/scripts in this repository are provided as-is; check the original image's licensing terms before redistributing the image asset.
