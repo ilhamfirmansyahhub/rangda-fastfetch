@@ -62,6 +62,12 @@
         },
 
         {
+            "type": "command",
+            "key": "  OS Age",
+            "text": "birth=$(stat -c '%W' /); now=$(date +%s); if [ \"$birth\" -gt 0 ]; then echo \"$(( (now - birth) / 86400 )) days\"; else echo 'Unknown'; fi"
+        },
+
+        {
             "type": "custom",
             "format": "├─ \u001b[38;2;247;118;142mHardware\u001b[0m ───────────────────────────────────┤"
         },
